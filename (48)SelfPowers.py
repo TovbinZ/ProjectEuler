@@ -1,5 +1,5 @@
 #problem 48
-#Answer 9110846700
+# Answer - 9110846700
 
 def SelfPowers(num): 
 	total = 0

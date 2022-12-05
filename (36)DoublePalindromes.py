@@ -1,5 +1,5 @@
 #problem 36
-#Answer 872187
+# Answer - 872187
 
 def Palindromes(Num):
 	if str(Num) == str(Num)[::-1]:

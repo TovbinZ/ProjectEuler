@@ -1,4 +1,5 @@
 #problem 21
+# 31626
 
 
 def d(n): 
@@ -15,9 +16,10 @@ def d(n):
 
 
 total = 0
-for i in range(284):
-	if i == d(d(i)):
-		total += i
+for i in range(10000):
+	if d(i) != i:
+		if i == d(d(i)):
+			total += i
 	
 
 
