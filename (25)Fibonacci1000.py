@@ -2,6 +2,9 @@
 #Answer 4782 
 
 
+# import sys
+# sys.set_int_max_str_digits(1000000)
+
 Repeat = True
 FibonacciList = [1,1]
 index = 2
@@ -14,8 +17,3 @@ while Repeat:
 	if len(str(result)) >= 1000:
 		Repeat = False
 		print(index)
-
-
-
-
-
